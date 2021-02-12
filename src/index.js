@@ -85,7 +85,7 @@ const SignupForm = () => {
                 firstName: "", 
                 lastName: "", 
                 email: "",
-                acceptedTerm: false,
+                acceptedTerms: false,
                 jobType: ""}}
             validationSchema={Yup.object({
                 firstName: Yup.string()
